@@ -54,7 +54,7 @@ import io.swagger.client.auth.OAuth;
 public class ApiClient {
 
 //    private String basePath = "http://localhost:8080/a2_server_war_exploded/";
-    private String basePath = "http://54.221.41.198:8080/a2-server_war/";
+    private String basePath = "http://bsds-servlet-lb-868c7657cc374ec4.elb.us-east-1.amazonaws.com/a2-server_war/";
     private boolean debugging = false;
     private Map<String, String> defaultHeaderMap = new HashMap<>();
     private String tempFolderPath = null;
